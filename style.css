@@ -3,10 +3,10 @@
 body{
     font-family: 'Architects Daughter', cursive;
     margin: 0px;
-    background-color: #F9FAFB;
+    background-color: #92400E;
 }
 :root {
-    --primary-color: #4b5548;
+    --primary-color: #92400E;
     
 }
 
@@ -50,6 +50,7 @@ button{
     text-align: center;
     text-decoration: none;
     font-size: 20px;
+    border: 2.5px solid black;
 }
 
 button:hover{
