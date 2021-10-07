@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body{
+    font-family: 'Architects Daughter', cursive;
+    margin: 0px;
+    background-color: #F9FAFB;
+}
+:root {
+    --primary-color: #4b5548;
+    
+}
+
+.hero {
+    padding: 1rem;
+    padding-top: 1rem;
+    background-color: var(--primary-color);
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: black;
+}
+
+textarea {
+    font-family: 'Architects Daughter', cursive;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    background-color: #F3F4F6;
+    border: 2px solid black;
+    width: 50%;
+    height: 15vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+    text-align: center;
+}
+
+button{
+    font-family: 'Architects Daughter', cursive;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: black;
+}
+
+#translate-output{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#output{
+    font-family: 'Architects Daughter', cursive;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #F3F4F6;
+    border: 2px solid black;
+    width: 50%;
+    height: 15vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 2.5rem;
+    padding: 1rem;
+    padding-top: 1rem;
+    background-color: var(--primary-color);
+}
+
+.footer .footer-header {
+    text-align: center;
+    padding-top: 1rem;
+    color: black;
+}
+
+.footer .footer-paragraph{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
